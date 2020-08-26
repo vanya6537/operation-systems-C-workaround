@@ -1,0 +1,40 @@
+ 1036  rm -r Week-0*
+ 1037  ls
+ 1038  mkdir week1
+ 1039  ls /usr/bin *gcc* | sort -r 
+ 1040  ls /usr/bin gcc | sort -r 
+ 1041  ls /usr/bin -c -ltd -- *gcc* | sort -r 
+ 1042  ls /usr/bin/gc
+ 1043  ls /usr/bin/gcc
+ 1044  ls /usr/bin/*
+ 1045  ls /usr/bin/*gcc
+ 1046  ls /usr/bin/*gcc*
+ 1047  find /usr/bin/ -type f -name "*gcc*" | sort -r 
+ 1048  find /usr/bin -type f -name "*gcc*" | sort -r 
+ 1049  find /usr/bin -type f -name "*gcc*" | sort -r > ex1.txt
+ 1050  cat ex1.txt
+ 1051  find /usr/bin -type f -name "*gcc*" -printf "%f\n"
+ 1052  find /usr/bin -type f -name "*gcc*" -exec basename {} \;
+ 1053  find /usr/bin -type f -name "*gcc*" -exec basename {} \; | sort -r > ex1.txt
+ 1054  find /usr/bin -type f -name "*gcc*" -exec basename {} \ | sort -r > ex1.txt
+ 1055  find /usr/bin -type f -name "*gcc*" -exec basename {} \; | sort -r > ex1.txt
+ 1056  sudo find /usr/bin -type f -name "*gcc*" -exec basename {} \; | sort -r > ex1.txt\n
+ 1057  rm ex1.txt
+ 1058  sudo find /usr/bin -type f -name "*gcc*" -exec basename {} \; | sort -r > ex1.txt\n
+ 1059  find /usr/bin -type f -name "*gcc*" -exec basename {} \; | sort -r > ex1.txt\n
+ 1060  ls
+ 1061  rm ex1.txt
+ 1062  sudo
+ 1063  rm ex1.txt
+ 1064  rm -rf ex1.txt
+ 1065  sudo rm ex1.txt
+ 1066  ls
+ 1067  cd we
+ 1068  cd week1
+ 1069  find /usr/bin -type f -name "*gcc*" -exec basename {} \; | sort -r > ./ex1.txt\n
+ 1070  ls
+ 1071  cat ex1.txt
+ 1072  history > ex2.txt
+ 1073  cat ex2.txt
+ 1074  rm ex2.txt
+ 1075  ls
